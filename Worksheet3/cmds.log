@@ -1,0 +1,29 @@
+    1  git commit -m "Fixing worksheet3"
+    2   grep -E "Education" "Global YouTube Statistics.csv" | sort -t "," -k3 -n                                                                                         -r > edu.txt
+    3  grep -E "Sports" "Global YouTube Statistics.csv" | sort -t "," -k3 -n -r > Sports.txt
+    4  grep -E "Entertainment" "Global YouTube Statistics.csv" | sort -t "," -k3 -n -r > Entertainment.txt
+    5  vi Entertainment.txt 
+    6  head -n 1 Entertainment.txt 
+    7  head -n 1 Entertainment.txt > Task2.txt
+    8  tail -1 n Sports.txt
+    9  tail -n 1 Sports.txt
+   10  head -n 1 Sports.txt 
+   11  head -n 1 Sports.txt >> Task2.txt 
+   12  head -n 1 edu.txt
+   13* 
+   14  cat Task2.txt 
+   15  vi Task2.txt 
+   16  grep -E "United States" "Global YouTube Statistics.csv" | sort -t "," -k16 -n -r > US.txt
+   17  grep -E "United Kingdom" "Global YouTube Statistics.csv" | sort -t "," -k16 -n -r > UK.txt
+   18  grep -E "India" "Global YouTube Statistics.csv" | sort -t "," -k16 -n -r > India.txt
+   19  head -n 1 US.txt 
+   20  head -n 1 UK.txt 
+   21  head -n 1 India.txt 
+   22  head -n 1 India.txt > Task1.txt
+   23  head -n 1 UK.txt >> Task1.txt
+   24  head -n 1 US.txt >> Task1.txt
+   25  vi Task1.txt 
+   26  git add Task1.txt
+   27  git add Task2.txt 
+   28  git status
+   29  history > cmds.log
