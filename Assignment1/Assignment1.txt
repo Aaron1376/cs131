@@ -1,0 +1,52 @@
+1. cd cs131 
+   mkdir Assignment1
+
+
+
+2. echo $HOME and echo $SHELL
+
+/mnt/scratch/FA23_CS131_Ashish/aaronf23
+/bin/bash
+
+
+
+3. I did cat /etc/passwd
+aaronf23:x:1131: 
+
+4. I could still ls and ls-l the directory. I coudn't add any files to the directory.
+
+5.mkdir myDir2
+mkdir myDir3
+
+6. vi myFile.txt
+mv myFile.txt/ $HOME/cs131/Assignment1/myDir3 
+
+
+
+7.
+             total        used        free      shared  buff/cache   available
+Mem:       73080512    12631936     1449728     1282496    58998848    56951552
+Swap:       4218816     1078144     3140672
+
+
+10. 
+cat /etc/os-release
+The permission givent to all is Read
+
+NAME="Red Hat Enterprise Linux"
+VERSION="8.6 (Ootpa)"
+ID="rhel"
+ID_LIKE="fedora"
+VERSION_ID="8.6"
+PLATFORM_ID="platform:el8"
+PRETTY_NAME="Red Hat Enterprise Linux 8.6 (Ootpa)"
+ANSI_COLOR="0;31"
+CPE_NAME="cpe:/o:redhat:enterprise_linux:8::baseos"
+HOME_URL="https://www.redhat.com/"
+DOCUMENTATION_URL="https://access.redhat.com/documentation/red_hat_enterprise_linux/8/"
+BUG_REPORT_URL="https://bugzilla.redhat.com/"
+
+REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 8"
+REDHAT_BUGZILLA_PRODUCT_VERSION=8.6
+REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux"
+REDHAT_SUPPORT_PRODUCT_VERSION="8.6"
