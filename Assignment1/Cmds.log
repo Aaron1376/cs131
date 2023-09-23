@@ -1,0 +1,150 @@
+Script started on 2023-09-22 19:37:16-04:00
+bash-4.4$ cdv[K .[KmyDir2
+bash: cd: myDir2: No such file or directory
+bash-4.4$ 
+bash-4.4$ 
+bash-4.4$ 
+bash-4.4$ cd myDir2[K3
+bash-4.4$ mv myDir2/ h[KHOME[K[K[K[Khome.[K/cs131
+mv: cannot move 'myDir2/' to 'home/cs131': No such file or directory
+bash-4.4$ mv myDir2/ home/cs131[C[C[C[1P/cs131[1P/cs131[1P/cs131[1P/cs131$/cs131H/cs131O/cs131M/cs131E/cs131
+bash-4.4$ ls
+bash-4.4$ cd ..
+bash-4.4$ cd ..
+bash-4.4$ ls
+Assignment1  myDir2  README.md	typescript  Worksheet1	Worksheet2  Worksheet3
+bash-4.4$ mv myDir2/ Assignment1
+bash-4.4$ cd Assignment1/
+bash-4.4$ ls
+Assignment1.txt  myDir	myDir2	myDir3	typescript
+bash-4.4$ myDir2
+bash: myDir2: command not found
+bash-4.4$ cdmyDir2[4Pcd myDir3[K2
+bash-4.4$ mv myFile.txt $HOME/cs131/Assignment1/myDir3
+bash-4.4$ ls
+bash-4.4$ cd..[K[K ..
+bash-4.4$ free
+              total        used        free      shared  buff/cache   available
+Mem:       73080512    12549568     1536000     1282688    58994944    57033728
+Swap:       4218816     1078144     3140672
+bash-4.4$ vi a[Ka[KAssignment1.txt 
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;58r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[58;1H"Assignment1.txt" 16L, 251C[1;1H1. cd cs131
+   mkdir Assignment1[6;1H2. echo $HOME and echo $SHELL
+
+/mnt/scratch/FA23_CS131_Ashish/aaronf23
+/bin/bash[13;1H3. I did cat /etc/passwd
+aaronf23:x:1131:
+
+4. I could still ls and ls-l the directory. I coudn't add any files to the directorr[17;1Hy.
+[1m[34m~                                                                                  [19;1H~                                                                                  [20;1H~                                                                                  [21;1H~                                                                                  [22;1H~                                                                                  [23;1H~                                                                                  [24;1H~                                                                                  [25;1H~                                                                                  [26;1H~                                                                                  [27;1H~                                                                                  [28;1H~                                                                                  [29;1H~                                                                                  [30;1H~                                                                                  [31;1H~                                                                                  [32;1H~                                                                                  [33;1H~                                                                                  [34;1H~                                                                                  [35;1H~                                                                                  [36;1H~                                                                                  [37;1H~                                                                                  [38;1H~                                                                                  [39;1H~                                                                                  [40;1H~                                                                                  [41;1H~                                                                                  [42;1H~                                                                                  [43;1H~                                                                                  [44;1H~                                                                                  [45;1H~                                                                                  [46;1H~                                                                                  [47;1H~                                                                                  [48;1H~                                                                                  [49;1H~                                                                                  [50;1H~                                                                                  [51;1H~                                                                                  [52;1H~                                                                                  [53;1H~                                                                                  [54;1H~                                                                                  [55;1H~                                                                                  [56;1H~                                                                                  [57;1H~                                                                                  [1;1H[?25h
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[m4[?25l[58;1H[1m-- INSERT --[m[58;13H[K[16;2H[?25h. I [?25l[16;6H[K[17;1Hcould still ls and ls-l the directory. I coudn't add any files to the directory.[?25h[?25l[34m^Z[mcould still ls and ls-l the directory. I coudn't add any files to the directory.[17;3H[?25h[?25lcould still ls and ls-l the directory. I coudn't add any files to the directory.[17;81H[K[17;1H[?25h[?25l[16;6Hcould still ls and ls-l the directory. I coudn't add any files to the directorr[17;1Hy.[17;3H[K[16;6H[?25hcould still ls and ls-l the directory. I coudn't add any files to the directo
+y.[?25l[18;1H[K[18;1H[?25h[?25l[19;1H[K[19;1H[?25h[?25l5[?25h[?25l.[?25h[?25lm[?25h[?25lk[?25h[?25ld[?25h[?25li[?25h[?25lr[?25h[?25l [?25h[?25lm[?25h[?25ly[?25h[?25lD[?25h[?25lI[?25h[?25lr[?25h[?25l[19;13H[K[19;13H[?25h[?25l[19;12H[K[19;12H[?25h[?25li[?25h[?25lr[?25h[?25l2[?25h[?25l[20;1H[K[20;1H[?25h[?25lm[?25h[?25lk[?25h[?25ld[?25h[?25li[?25h[?25lr[?25h[?25l [?25h[?25lm[?25h[?25ly[?25h[?25lD[?25h[?25li[?25h[?25lr[?25h[?25l [?25h[?25l3[?25h[?25l[20;13H[K[20;13H[?25h[?25l[?25h[?25l3[?25h[?25l[21;1H[K[21;1H[?25h[?25l[22;1H[K[22;1H[?25h[?25l6[?25h[?25l.[?25h[?25l [?25h[?25l [?25h[?25l[?25h[?25lv[?25h[?25li[?25h[?25l [?25h[?25lm[?25h[?25ly[?25h[?25lF[?25h[?25li[?25h[?25ll[?25h[?25le[?25h[?25l.[?25h[?25lt[?25h[?25lx[?25h[?25lt[?25h[?25l[23;1H[K[23;1H[?25h[?25l[24;1H[K[24;1H[?25h[?25l6[?25h[?25l.[?25h[?25l[24;2H[K[24;2H[?25h[?25l[24;1H[K[24;1H[?25h[?25l[1m[34m~                                                                                  [23;1H[?25h[?25l[mm[?25h[?25lv[?25h[?25l [?25h[?25lm[?25h[?25ly[?25h[?25lF[?25h[?25li[?25h[?25ll[?25h[?25le[?25h[?25l.[?25h[?25lt[?25h[?25lx[?25h[?25lt[?25h[?25l [?25h[?25l$[?25h[?25l[23;15H[K[23;15H[?25h[?25l[?25h[?25l/[?25h[?25l [?25h[?25l$[?25h[?25lH[?25h[?25lo[?25h[?25lm[?25h[?25le[?25h[?25l[23;20H[K[23;20H[?25h[?25l[23;19H[K[23;19H[?25h[?25l[23;18H[K[23;18H[?25h[?25lO[?25h[?25lM[?25h[?25lE[?25h[?25l/[?25h[?25lc[?25h[?25ls[?25h[?25l1[?25h[?25l3[?25h[?25l1[?25h[?25l/[?25h[?25lA[?25h[?25ls[?25h[?25ls[?25h[?25li[?25h[?25lg[?25h[?25ln[?25h[?25lm[?25h[?25le[?25h[?25ln[?25h[?25lt[?25h[?25l1[?25h[?25l/[?25h[?25lm[?25h[?25ly[?25h[?25lD[?25h[?25li[?25h[?25lr[?25h[?25l3[?25h[?25l [?25h[?25l[24;1H[K[24;1H[?25h[?25l[25;1H[K[25;1H[?25h[?25l[26;1H[K[26;1H[?25h[?25l:[?25h[58;1H[K[26;1H[?25l[?25h[?25l[58;1H[1m-- INSERT --[26;1H[?25h[m:[?25l[26;1H[K[26;1H[?25h[58;1H[K[26;1H[?25l[?25h[?25l[58;1H:[?2004h[?25hwq[?25l[?2004l"Assignment1.txt" 25L, 348C written
+[?2004l[?1l>[?25h[?1049l[23;0;0tbash-4.4$ vi Assignment1.txt [C[C[C[C[C[C[C[C[C[Cfree[K >> Assignment1.txt 
+bash-4.4$ cat /etc/os-release
+NAME="Red Hat Enterprise Linux"
+VERSION="8.6 (Ootpa)"
+ID="rhel"
+ID_LIKE="fedora"
+VERSION_ID="8.6"
+PLATFORM_ID="platform:el8"
+PRETTY_NAME="Red Hat Enterprise Linux 8.6 (Ootpa)"
+ANSI_COLOR="0;31"
+CPE_NAME="cpe:/o:redhat:enterprise_linux:8::baseos"
+HOME_URL="https://www.redhat.com/"
+DOCUMENTATION_URL="https://access.redhat.com/documentation/red_hat_enterprise_linux/8/"
+BUG_REPORT_URL="https://bugzilla.redhat.com/"
+
+REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 8"
+REDHAT_BUGZILLA_PRODUCT_VERSION=8.6
+REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux"
+REDHAT_SUPPORT_PRODUCT_VERSION="8.6"
+bash-4.4$ cat /etc/os-release >> Assignment1.txt 
+bash-4.4$ vi Assignment1.txt 
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;58r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[58;1H"Assignment1.txt" 45L, 1144C[1;1H1. cd cs131
+   mkdir Assignment1[6;1H2. echo $HOME and echo $SHELL
+
+/mnt/scratch/FA23_CS131_Ashish/aaronf23
+/bin/bash[13;1H3. I did cat /etc/passwd
+aaronf23:x:1131:
+
+4. I could still ls and ls-l the directory. I coudn't add any files to the directorr[17;1Hy.
+
+5.mkdir myDir2
+mkdir myDir3
+
+6. vi myFile.txt
+mv myFile.txt/ $HOME/cs131/Assignment1/myDir3[27;15Htotal[8Cused[8Cfree      shared  buff/cache   available
+Mem:[7C73080512    12631936     1449728     1282496    58998848    56951552
+Swap:[7C4218816     1078144     3140672
+NAME="Red Hat Enterprise Linux"
+VERSION="8.6 (Ootpa)"
+ID="rhel"
+ID_LIKE="fedora"
+VERSION_ID="8.6"
+PLATFORM_ID="platform:el8"
+PRETTY_NAME="Red Hat Enterprise Linux 8.6 (Ootpa)"
+ANSI_COLOR="0;31"
+CPE_NAME="cpe:/o:redhat:enterprise_linux:8::baseos"
+HOME_URL="https://www.redhat.com/"
+DOCUMENTATION_URL="https://access.redhat.com/documentation/red_hat_enterprise_linuxx[41;1H/8/"
+BUG_REPORT_URL="https://bugzilla.redhat.com/"
+
+REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 8"
+REDHAT_BUGZILLA_PRODUCT_VERSION=8.6
+REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux"
+REDHAT_SUPPORT_PRODUCT_VERSION="8.6"
+[1m[34m~                                                                                  [49;1H~                                                                                  [50;1H~                                                                                  [51;1H~                                                                                  [52;1H~                                                                                  [53;1H~                                                                                  [54;1H~                                                                                  [55;1H~                                                                                  [56;1H~                                                                                  [57;1H~                                                                                  [1;1H[?25h
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[27;1H[?25l[m[58;1H[1m-- INSERT --[m[58;13H[K[27;1H[?25h[?25l7[13C total[7C used[7C free      shared  buff/cache   available7[?25h[?25l.[13C total[7C used[7C free      shared  buff/cache   available7.[?25h[?25l[28;57r[28;1H[L[1;58r[27;17H[K[28;15Htotal[8Cused[8Cfree      shared  buff/cache   available[?25h    [?25l[9Ctotal [7Cused [7Cfree      shared  buff/cache   available[28;79H[K[28;4H[?25h
+Mem
+Swa
+NAM[?25l[32;57r[32;1H[L[1;58r[31;1H[K[32;1HNAME="Red Hat Enterprise Linux"[?25h[?25l[33;57r[33;1H[L[1;58r[32;1H[K[33;1HNAME="Red Hat Enterprise Linux"[?25h[32;1H[?25l[33;57r[33;1H[L[1;58r[33;1H[?25h[?25l1[?25h[?25l0[?25h[?25l.[?25h[?25l [?25h[?25l[34;57r[34;1H[L[1;58r[34;1H[?25h[?25lc[?25h[?25la[?25h[?25lt[?25h[?25l [?25h[?25l/[?25h[?25le[?25h[?25lt[?25h[?25lc[?25h[?25l/[?25h[?25l-[?25h[?25l[34;10H[K[34;10H[?25h[?25lo[?25h[?25ls[?25h[?25l-[?25h[?25lr[?25h[?25le[?25h[?25ll[?25h[?25le[?25h[?25la[?25h[?25ls[?25h[?25le[?25h[?25l[35;57r[35;1H[L[1;58r[35;1H[?25h[?25lT[?25h[?25lh[?25h[?25le[?25h[?25l [?25h[?25lp[?25h[?25le[?25h[?25lr[?25h[?25lm[?25h[?25li[?25h[?25ls[?25h[?25ls[?25h[?25li[?25h[?25lo[?25h[?25ln[?25h[?25l [?25h[?25lg[?25h[?25li[?25h[?25lv[?25h[?25le[?25h[?25ln[?25h[?25lt[?25h[?25l [?25h[?25lo[?25h[?25l[35;23H[K[35;23H[?25h[?25lt[?25h[?25lo[?25h[?25l [?25h[?25la[?25h[?25ll[?25h[?25ll[?25h[?25l [?25h[?25li[?25h[?25ls[?25h[?25l [?25h[?25lR[?25h[?25lE[?25h[?25la[?25h[?25ld[?25h[?25l[35;36H[K[35;36H[?25h[?25l[35;35H[K[35;35H[?25h[?25l[35;34H[K[35;34H[?25h[?25le[?25h[?25la[?25h[?25ld[?25h[?25l[36;57r[36;1H[L[1;58r[36;1H[?25h[58;1H[K[36;1H[?25l[?25h[?25l[58;1H:[?2004h[?25hwq[?25l[?2004l"Assignment1.txt" 52L, 1211C written
+[?2004l[?1l>[?25h[?1049l[23;0;0tbash-4.4$ git add .[K[K.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+	add
+bash-4.4$ git add.[K .
+bash-4.4$ exit
+exit
+
+Script done on 2023-09-22 19:48:26-04:00
