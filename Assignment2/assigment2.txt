@@ -1,0 +1,70 @@
+find: ‘/etc/pki/rsyslog’: Permission denied
+find: ‘/etc/lvm/archive’: Permission denied
+find: ‘/etc/lvm/backup’: Permission denied
+find: ‘/etc/lvm/cache’: Permission denied
+find: ‘/etc/sssd’: Permission denied
+find: ‘/etc/polkit-1/rules.d’: Permission denied
+find: ‘/etc/polkit-1/localauthority’: Permission denied
+find: ‘/etc/grub.d’: Permission denied
+find: ‘/etc/nftables’: Permission denied
+find: ‘/etc/audit’: Permission denied
+find: ‘/etc/sudoers.d’: Permission denied
+find: ‘/etc/firewalld’: Permission denied
+
+1. The command searches the starting directory to find regular files. It sends the the output to one.txt and sends all the errors encountered to two.txt.
+
+1b. one.txt is an empty file and two.txt has the errors encountered in the search of the files
+
+
+2. 
+
+1. March 2006 with 15 channels
+
+2. July 2014 with 13 channels
+
+3. August 2014 with 12 channels
+
+cut -d',' f20,21 Global\ YouTube\ Statistics.csv > channels.txt
+
+This command cuts the columns in the data set that have the created month and year and puts them into a new text file.
+
+sort -t',' -k2,2 -k1,1n chanelsCreatedMonth.txt > sorted.txt
+
+This command first sorts the months which are in the second column and then sorts the years which is the first column.
+
+uniq -c sorted.txt | sort -nr > sortedChannels.txt
+
+This command counts the repeated year and month and sorts them in numerical reverse order.
+
+
+3. ps -u aaronf23 
+
+
+4.
+
+b. The process ID is 3911852 and VIM wasn't there before
+
+d. VIM is gone now and it's because I left the file editor
+
+
+    PID TTY          TIME CMD
+3853921 ?        00:00:02 systemd
+3853923 ?        00:00:00 (sd-pam)
+3853929 ?        00:00:01 sshd
+3853933 pts/107  00:00:00 bash
+3876947 pts/107  00:00:00 script
+3876949 pts/113  00:00:00 bash
+3911589 ?        00:00:00 sshd
+3911592 pts/60   00:00:00 bash
+3913037 pts/60   00:00:00 ps
+
+
+
+5. init which is systemd in this version of IBM VM, is the first process started by the kernel to provide an array of stem components for the operating systems.
+
+ps -p 1
+
+
+
+6. ps -aux lists all thr process running on the program. A displays information associated with the current terminal. U displays detailed user-oriented outut. X displays process without a terminal.
+
