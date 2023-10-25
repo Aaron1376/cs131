@@ -1,7 +1,8 @@
+#!/bin/bas
 
 mkdir -p 'United States'
 
-IFS=$'\n'
+IFS=$','
 
 while read -r category
 do

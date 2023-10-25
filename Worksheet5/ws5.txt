@@ -1,4 +1,5 @@
-22 United States/Comedy.txt entries
-65 United States/Entertainment.txt entries
-26 United States/Gaming.txt entries
-72 United States/Music.txt entries
+
+44 United States/Comedy.txt entries
+130 United States/Entertainment.txt entries
+52 United States/Gaming.txt entries
+144 United States/Music.txt entries
