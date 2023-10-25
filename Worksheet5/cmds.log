@@ -1,0 +1,10 @@
+mkdir Worksheet5
+
+cd Worksheet5
+
+wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+
+vi script.sh
+
+bash script.sh Global\ Youtube \ Statistics.csv
+
