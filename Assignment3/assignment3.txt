@@ -1,0 +1,128 @@
+Task 1: 
+
+Commands used to solve: 
+
+1.wc -l last.fake
+
+Output of command:
+2162 last.fake
+
+
+2. grep 'f23' last.fake >> lastf23.fake
+
+
+3. wc -l lastf23.fake
+
+Output of command: 
+239 lastf23.fake
+
+
+Task 2: 
+Commands used to solve:
+
+echo "The list of people who worked on Sunday are: " 
+
+grep "Sun" lastf23.fake | awk -F ' ' '{print $1}' | uniq 
+
+echo "Kudos to these people for putting in the work" 
+
+Output of commands:
+
+The list of people who worked on Sunday are: 
+jewonf23
+saniaf23
+jewonf23
+saniaf23
+tienf23
+Kudos to these people for putting in the work
+
+Task 3:
+
+Commands used to solve:
+
+echo "Night Owls List: "
+
+awk '((($7 >= "23:00" && $7 <= "23:59") || ($7>="00:00" && $7 <= "04:00")) && (($9 >= "23:00" && $9 <= "23:59") || ($9 >= "00:00" && $9 "04:00"))) {print $1}' lastf23.fake | sort | uniq
+
+echo "Night Owls are dope. Please ensure you get enough sleep though."
+
+Output of Commands: 
+
+Night Owls List: 
+aaronf23
+anasf23
+divijf23
+hamzaf23
+hof23
+jamesf23
+junf23
+kobef23
+maximf23
+saniaf23
+thif23
+tienf23
+Night Owls are dope. Please ensure you get enough sleep though.
+
+
+Task4: 
+
+Commands used to solve:
+
+echo "Early Birds List: "
+
+awk '(($7 >= "05:00" && $7 <= "08:59") && ($9 >= "05:00" && $9 <= "08:59")) {print $1}' lastf23.fake | sort | uniq
+
+echo "Early Birds are dope. Please ensure you get enough sleep though."
+
+Output of Commands:
+
+Early Birds List: 
+hamzaf23
+hof23
+thif23
+tienf23
+Early Birds are dope. Please ensure you get enough sleep though.
+
+Task 5: 
+
+Commands used to solve:
+
+[200~ awk '$1 ~ /^t.*f23$/ { print $1 }' "$1" lastf23.fake | sort | uniq
+
+Output of Commands:
+
+thif23
+tienf23 
+
+Task 6:
+
+commands used to solve:
+
+awk 'BEGIN { FS = ":" } ($1 ~ /^a.*$/) && ($3 % 2 == 0) { print $1 }' "$1"
+
+Output of command:
+
+angie23fa
+areebah23fa
+apple23fa
+ajay23fa
+alan23fa
+amreenf23
+
+Task 7: 
+
+commands used to solve:
+
+sed 's/[a-zA-Z0-9 ]//g' "$1" passwd.fake | sort -u
+
+Output of command:
+
+-::::-:/://
+-:::::///-://
+-:::::/://
+::::-:///://
+:::::///://
+:::::///_/://
+:::::///__/://
+::::://://
+:::::/://
